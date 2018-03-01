@@ -59,6 +59,7 @@ This script will will generate file **variance_table.txt**. This file has one li
 ```
 
 Grab some more coffee. It can take a few more hours to generate this file. Nevertheless, the file is included in this repository, for your convenience.
+<!--user	193m58.921s-->
 
 ### Third script
 
@@ -66,7 +67,7 @@ Grab some more coffee. It can take a few more hours to generate this file. Never
 python qi_3_variance_alpha_gamma.py
 ```
 
-This script will generate file **Var_2_64.txt**. This file has one line for each value of n between 2 and 64, with the value of n and the symbolic formula for the variance of QI<sub>n</sub> under the alpha-gamma model as a function of alpha and gamma. For instance, the first 4 lines of file **Var_2_64.txt** are:
+This script will generate file **Var_2_64.txt**. This file has one line for each value of n between 2 and 64, with the value of n and the symbolic formula for the variance of QI<sub>n</sub> under the &alpha;-&gamma; model as a function of &alpha; and &gamma;. For instance, the first 4 lines of file **Var_2_64.txt** are:
 
 ```
 2 0
@@ -75,23 +76,32 @@ This script will generate file **Var_2_64.txt**. This file has one line for each
 5 (5*(a - 4)*(a - 3)*(a - 2)*(a**3 - 9*a**2 + 26*a - 24)*(q1**2*(a - g)*(-5*a + g + 5) + 2*q2**2*(a - g)*(-a + g + 1) - q3**2*(a - 1)*(-2*a + g + 2) + q4**2*(a - g)*(2*a - g)) - 25*(a - 4)*(a**3 - 9*a**2 + 26*a - 24)*(q1*(a - g)*(-5*a + g + 5) + 2*q2*(a - g)*(-a + g + 1) - q3*(a - 1)*(-2*a + g + 2) + q4*(a - g)*(2*a - g))**2 + 2*(a - 3)*(a - 2)*(-6*q3**4*(a - 2)*(a - 1)*(-3*a + 2*g + 3)*(a**3 - 9*a**2 + 26*a - 24) + (a - 4)*(a - 3)*(a - 2)*(3*q1**4*(-13*a**3 + 11*a**2*g + 51*a**2 + 3*a*g**2 - 54*a*g - 38*a - g**3 + 3*g**2 + 38*g) + q2**4*(11*a**3 - 38*a**2*g + 9*a**2 + 39*a*g**2 - 21*a*g - 20*a - 12*g**3 + 12*g**2 + 20*g)) - (a - g)*(a**3 - 9*a**2 + 26*a - 24)*(2*q1**2*q2**2*(3*(a - g)*(-7*a + 3*g + 7) + (-5*a + g + 5)*(-2*a + 3*g + 2)) - 12*q1**2*q3**2*(a - 1)*(-4*a + g + 4) + 6*q1**2*q4**2*(2*a - g)*(-9*a + g + 9) - 12*q2**2*q3**2*(a - 1)*(-3*a + 2*g + 3) + 4*q2**2*q4**2*(2*a - g)*(-2*a + 3*g + 2) + 3*q4**4*(2*a - g)*(7*a - 3*g + 3))))/((a - 4)*(a - 3)**2*(a - 2)**2*(a**3 - 9*a**2 + 26*a - 24))
 ```
 
+Grab still some more coffee. It can take a couple of hours to generate this file. Nevertheless, the file is included in this repository, for your convenience.
+
 ### Fourth script
 
 ```
 python qi_4_variance_alpha_gamma_n.py
 ```
 
-This script will ... For instance, ...
+This script will generate file **Var_n.txt**. This file has only one line, with the symbolic formula for the variance of QI<sub>n</sub> under the &alpha;-&gamma; model as a function of &alpha;, &gamma; and n.
 
-```
-xxx
-xxx
-xxx
-```
-
+It shall only take a few minutes to generate this file. Nevertheless, the file is included in this repository, for your convenience.
 <!--
 user	7m8.109s
 -->
+
+### Fifth script
+
+```
+python qi_5_variance.py
+```
+
+This script will take values for &alpha;, &gamma; and n, and print the value of the variance of QI<sub>n</sub> under the &alpha;-&gamma; model. For instance, for XXX, XXX and XXX, it will print:
+
+```
+xxx
+```
 
 ## Authors
 
