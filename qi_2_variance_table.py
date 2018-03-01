@@ -109,6 +109,6 @@ for i in range(1, 5):
 							count += 1
 				sum += simplify(q[i]*q[j]*count*P[k][s])
 			S[i][j][k] = simplify(sum)
-			print i, j, k, S[i][j][k]
+			print "round", i + j + (k - 4) - 2, "of", 4*4*4
 			print >>out, i, j, k, S[i][j][k]
 
