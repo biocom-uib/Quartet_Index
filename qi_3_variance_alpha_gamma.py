@@ -68,6 +68,6 @@ def Var(n):
 
 out = open("Var_2_64.txt", "w")
 for n in range(2, 65):
-	print n, Var(n)
+	print "round", n, "of 64"
 	print >>out, n, Var(n)
 

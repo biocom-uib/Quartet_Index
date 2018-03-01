@@ -84,6 +84,7 @@ def shape(t):
 
 out = open("variance_table.txt", "w+")
 S = dict()
+count = 0
 for i in range(1, 5):
 	S[i] = dict()
 	for j in range(1, 5):
@@ -109,6 +110,7 @@ for i in range(1, 5):
 							count += 1
 				sum += simplify(q[i]*q[j]*count*P[k][s])
 			S[i][j][k] = simplify(sum)
-			print "round", i + j + (k - 4) - 2, "of", 4*4*4
+			count += 1
+			print "round", count, "of", 64
 			print >>out, i, j, k, S[i][j][k]
 
