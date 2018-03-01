@@ -101,13 +101,14 @@ user	7m8.109s
 ### Fifth script
 
 ```
-python qi_5_variance.py
+python qi_5_variance.py a g n
 ```
 
-This script will take values for &alpha;, &gamma; and n, and print the value of the variance of QI<sub>n</sub> under the &alpha;-&gamma; model. For instance, for XXX, XXX and XXX, it will print:
+This script will take values for &alpha;, &gamma; and n, and print the value of the variance of QI<sub>n</sub> under the &alpha;-&gamma; model. For instance:
 
 ```
-xxx
+$ python qi_5_variance.py 0.5 0.5 4
+0.16*q3**2
 ```
 
 ## Authors
