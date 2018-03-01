@@ -75,5 +75,4 @@ def Var(n):
 
 out = open("Var_n.txt", "w")
 print >>out, Var(n)
-out.close()
 
