@@ -4,8 +4,6 @@
 # input:	---
 # output:	files "P2.txt" ... "P8.txt"
 
-import sys
-# out_path = sys.argv[1]
 from ete3 import Tree
 from sympy import *
 
