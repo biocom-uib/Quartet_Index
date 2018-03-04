@@ -1,5 +1,5 @@
 # qi_4_variance_alpha_gamma_n.py
-# (c) 2018 Tomas Martinez, Arnau Mir, Francesc Rossello, Gabriel Valiente
+# (c) 2018 Tomàs M. Coronado, Arnau Mir, Francesc Rosselló, Gabriel Valiente
 # 
 # input:	file "variance_table.txt"
 # output:	file "Var_n.txt" with Var_{M_{alpha,gamma}}(QI_n)

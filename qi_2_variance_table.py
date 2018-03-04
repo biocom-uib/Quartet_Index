@@ -1,5 +1,5 @@
 # qi_2_variance_table.py
-# (c) 2018 Tomas Martinez, Arnau Mir, Francesc Rossello, Gabriel Valiente
+# (c) 2018 Tomàs M. Coronado, Arnau Mir, Francesc Rosselló, Gabriel Valiente
 # 
 # input:	files "P2.txt" ... "P8.txt"
 # output:	file "variance_table.txt"

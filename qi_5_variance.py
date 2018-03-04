@@ -1,5 +1,5 @@
 # qi_5_variance.py
-# (c) 2018 Tomas Martinez, Arnau Mir, Francesc Rossello, Gabriel Valiente
+# (c) 2018 Tomàs M. Coronado, Arnau Mir, Francesc Rosselló, Gabriel Valiente
 # 
 # input:	file "Var_n.txt", real alpha, real gamma, integer n
 # output:	value of Var_{M_{alpha,gamma}}(QI_n)

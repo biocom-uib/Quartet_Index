@@ -1,5 +1,5 @@
 # qi_6_value.py
-# (c) 2018 Tomas Martinez, Arnau Mir, Francesc Rossello, Gabriel Valiente
+# (c) 2018 Tomàs M. Coronado, Arnau Mir, Francesc Rosselló, Gabriel Valiente
 # 
 # input:	phylogenetic tree T in Newick format
 # output:	value of QI(T)

@@ -141,7 +141,7 @@ $ python qi_6_value.py tree3.nw
 
 ## Authors
 
-* **Tomàs Martínez**
+* **Tomàs M. Coronado**
 * **Arnau Mir** - [Email](mailto:arnau.mir@uib.es)
 * **Francesc Rosselló** - [Email](mailto:cesc.rossello@uib.es)
 * **Gabriel Valiente** - [Email](mailto:valiente@cs.upc.edu)
