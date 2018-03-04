@@ -116,6 +116,19 @@ $ python qi_5_variance.py 0 0.5 4
 -0.458333333333333*q1**2 - 0.25*q2**2 + 0.416666666666667*q3**2 + 0.0416666666666667*q4**2 - (-2.75*q1 - 1.5*q2 + 2.5*q3 + 0.25*q4)**2/36
 ```
 
+### Sixth script
+
+```
+python qi_6_value.py tree.nw
+```
+
+This script will take a phylogenetic tree in Newick format and print the value of QI for the tree. For instance, if file **tree.nw** contains the Newick string **"((1,2),(((3,4),(5,6)),(7,8)));"**:
+
+```
+$ python qi_6_value.py tree.nw
+66
+```
+
 ## Authors
 
 * **Tomàs Martínez**
