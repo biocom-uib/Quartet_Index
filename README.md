@@ -1,6 +1,6 @@
 # Quartet Index
 
-This is the companion software for the paper *A Balance Index for Phylogenetic Trees based on Quartets* by Tomàs Martínez, Arnau Mir, Francesc Rosselló, and Gabriel Valiente.
+This is the companion software for the paper *A Balance Index for Phylogenetic Trees based on Quartets* by Tomàs M. Coronado, Arnau Mir, Francesc Rosselló, and Gabriel Valiente.
 
 ## Getting Started
 
