@@ -141,7 +141,7 @@ $ python qi_6_value.py tree3.nw
 
 ## Other stuff
 
-The files **variance_table.txt** and **VarQI.pdf** provide the formula for the variance of QI under the &alpha-&gamma model in text format and in LaTeX format.
+The files **variance_table.txt** and **VarQI.pdf** provide the formula for the variance of QI under the &alpha;-&gamma; model in text format and in LaTeX format, respectively.
 
 ## Authors
 
