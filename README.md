@@ -119,34 +119,20 @@ $ python qi_5_variance.py 0 0.5 4
 ### Sixth script
 
 ```
-python qi_6_value.py tree.nw
+python qi_6_value_fast.py tree.nw
 ```
 
-This script will take a phylogenetic tree in Newick format and print the value of QI for the tree. For instance, if files **tree1.nw**, **tree2.nw** and **tree3.nw** contain the Newick strings **(((1,2),(3,4)),((5,6),(7,8)));**, **((1,2),(((3,4),(5,6)),(7,8)));** and **(((((((1,2),3),4),5),6),7),8);**, respectively:
+This script will take a phylogenetic tree in Newick format and print the value of QI for the tree. For instance, if file **figure_4.nw** contains the Newick string **((1,2,3),4,(5,(6,7)));**:
 
 ```
-$ python qi_6_value.py tree1.nw
-114
+$ python qi_6_value_fast.py figure_4.nw
+53
 ```
-
-```
-$ python qi_6_value.py tree2.nw
-66
-```
-
-```
-$ python qi_6_value.py tree3.nw
-0
-```
-
-## Other stuff
-
-The files **variance_table.txt** and **VarQI.pdf** provide the formula for the variance of QI under the &alpha;-&gamma; model in text format and in LaTeX format, respectively.
 
 ## Authors
 
-* **Tomàs M. Coronado** - [Email](mailto:t.martinez@uib.eu)
-* **Arnau Mir** - [Email](mailto:arnau.mir@uib.eu)
-* **Francesc Rosselló** - [Email](mailto:cesc.rossello@uib.eu)
+* **Tomàs M. Coronado**
+* **Arnau Mir** - [Email](mailto:arnau.mir@uib.es)
+* **Francesc Rosselló** - [Email](mailto:cesc.rossello@uib.es)
 * **Gabriel Valiente** - [Email](mailto:valiente@cs.upc.edu)
 
