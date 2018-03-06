@@ -131,7 +131,7 @@ $ python qi_6_value_fast.py figure_4.nw
 
 ## Authors
 
-* **Tomàs M. Coronado**
+* **Tomàs M. Coronado** - [Email](mailto:t.martinez@uib.es)
 * **Arnau Mir** - [Email](mailto:arnau.mir@uib.es)
 * **Francesc Rosselló** - [Email](mailto:cesc.rossello@uib.es)
 * **Gabriel Valiente** - [Email](mailto:valiente@cs.upc.edu)
